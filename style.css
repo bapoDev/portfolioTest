@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Source+Code+Pro&display=swap');
 
+.topbar{
+    font-family: 'JetBrains Mono';
+    font-size: 12px;
+    border: 1px;
+}
+
 .header{
     font-family: 'JetBrains Mono';
     color: white;
@@ -13,8 +19,25 @@
 }
 
 .homebar{
-    list-style: square;
     color: black;
     background-color: white;
-    
+    overflow: hidden;
+    font-family: 'JetBrains Mono';
+    font-size: 16px;
+    padding-top: 200px
+}
+
+.homebar-list{
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    padding: 16px;
+    text-decoration: none;
+    color: black;
 }
