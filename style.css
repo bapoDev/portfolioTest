@@ -41,7 +41,13 @@ li{
 }
 
 li a{
-    padding: 16px;
+    padding: 10px;
+    left: auto;
+    right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     color: black;
+    background-color: green;
 }
